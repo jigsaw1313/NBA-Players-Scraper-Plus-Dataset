@@ -1,5 +1,5 @@
 # Basketball Players Information Scraper
-
+![NBA LOGO](https://pngimg.com/uploads/nba/nba_PNG14.png)
 ## Overview
 
 This Python script allows you to scrape detailed information about basketball players from basketball-reference.com. It iterates through the alphabet, collecting data for players whose last names start with each letter ('a' to 'z').
@@ -58,4 +58,3 @@ Contributions are welcome! If you find any issues or want to enhance the functio
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
