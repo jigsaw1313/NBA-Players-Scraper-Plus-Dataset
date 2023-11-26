@@ -1,4 +1,3 @@
-
 # Basketball Players Information Scraper
 
 ## Overview
@@ -12,27 +11,34 @@ This Python script allows you to scrape detailed information about basketball pl
 - BeautifulSoup
 - Pandas
 
-Install the required dependencies using:
+## Setup
+
+### 1. Clone the repository:
 
 ```bash
-pip install requests beautifulsoup4 pandas
-```
+git clone https://github.com/jigsaw1313/NBA-Players-Scraper-Plus-Dataset.git
 
-## Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/basketball-players-scraper.git
-```
-
-2. Navigate to the project directory:
+### 2. Navigate to the project directory:
 
 ```bash
 cd basketball-players-scraper
 ```
 
-3. Run the script:
+### 3. Create and activate a virtual environment (Optional but recommended):
+
+```bash
+# On Windows
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### 4. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the script:
 
 ```bash
 python scrape_players.py
@@ -53,5 +59,3 @@ Contributions are welcome! If you find any issues or want to enhance the functio
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Make sure to replace "your-username" with your actual GitHub username in the clone command. Additionally, if you have a specific license for your project, replace "MIT License" with the appropriate license name and provide the corresponding license file (`LICENSE`).
